@@ -1,5 +1,51 @@
-﻿################################################################################
-# 이 .gitignore 파일은 Microsoft(R) Visual Studio에서 자동으로 만들어졌습니다.
-################################################################################
+﻿# Visual Studio 관련
+.vs/
+*.user
+*.suo
+*.userosscache
+*.userprefs
+*.csproj.user
 
-/.vs/Baekjoon
+# Build 관련
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+*.dll
+*.exe
+*.app
+*.apk
+*.dylib
+*.log
+*.pdb
+*.zip
+*.tar.gz
+*.rendered
+
+# Paket 관련
+paket-files/
+
+# NuGet 패키지
+*.nupkg
+*.snupkg
+*.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Rider/JetBrains IDE 관련
+.idea/
+*.iml
+
+# 기타 설정 파일
+*.DS_Store
+*.directory
+*.swp
+*~
+
+# 환경별 설정 파일
+appsettings.*.json
+
+# Temp Files
+[Tt]emp/
