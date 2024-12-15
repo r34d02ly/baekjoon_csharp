@@ -49,3 +49,8 @@ appsettings.*.json
 
 # Temp Files
 [Tt]emp/
+
+# 빌드 과정에서 생성되는 임시 파일
+*.AssemblyAttributes.cs
+*.AssemblyReference.cache
+*.cache
